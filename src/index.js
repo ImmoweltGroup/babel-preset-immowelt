@@ -1,5 +1,5 @@
 module.exports = {
-	transforms: [
+	plugins: [
 		'flow-strip-types'
 	]
 };
