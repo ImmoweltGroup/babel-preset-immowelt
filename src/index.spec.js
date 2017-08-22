@@ -5,6 +5,6 @@ describe('babel-preset-immowelt', () => {
 		expect(typeof config).toBe('object');
 		expect(config.plugins).toBeDefined();
 		expect(config.plugins instanceof Array).toBe(true);
-		expect(config.plugins[0]).toBe('flow-strip-types');
+		expect(config.plugins[0]).toBe('transform-flow-strip-types');
 	});
 });
