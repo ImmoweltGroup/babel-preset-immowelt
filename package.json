@@ -1,0 +1,43 @@
+{
+  "name": "@immowelt/babel-preset-immowelt",
+  "version": "0.0.0-development",
+  "private": false,
+  "author": "Immonet dev team <aegaeon@immonet.de> (https://immonet.de)",
+  "license": "MIT",
+  "description": "Default shareable config of babel for projects at Immowelt.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run lint && npm run jest:coverage",
+    "lint": "eslint src",
+    "jest": "jest",
+    "jest:watch": "npm run jest -- --watch",
+    "jest:coverage": "npm run jest -- --coverage"
+  },
+  "dependencies": {
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-runtime": "6.25.0"
+  },
+  "devDependencies": {
+    "@immowelt/eslint-config-immowelt-react": "^1.0.1",
+    "@immowelt/jest-preset-node": "^1.0.0",
+    "eslint": "4.4.1",
+    "jest": "^20.0.4"
+  },
+  "engines": {
+    "node": ">=8.2.0",
+    "npm": ">=5.3.0"
+  },
+  "jest": {
+    "preset": "@immowelt/jest-preset-node"
+  },
+  "keywords": [
+    "babel",
+    "immowelt",
+    "preset",
+    "immonet"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ImmoweltHH/babel-preset-immowelt.git"
+  }
+}
