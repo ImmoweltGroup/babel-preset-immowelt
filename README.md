@@ -1,9 +1,11 @@
 # @immowelt/babel-preset-immowelt
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/ImmoweltHH/babel-preset-immowelt.svg)](https://greenkeeper.io/)
-[![Build Status](https://travis-ci.org/ImmoweltHH/babel-preset-immowelt.svg?branch=master)](https://travis-ci.org/ImmoweltHH/babel-preset-immowelt)
-[![Dependency Status](https://david-dm.org/ImmoweltHH/babel-preset-immowelt.svg)](https://david-dm.org/ImmoweltHH/babel-preset-immowelt)
-[![devDependency Status](https://david-dm.org/ImmoweltHH/babel-preset-immowelt/dev-status.svg)](https://david-dm.org/ImmoweltHH/babel-preset-immowelt#info=devDependencies&view=table)
+[![Powered by Immowelt](https://img.shields.io/badge/powered%20by-immowelt-yellow.svg?colorB=ffb200)](https://stackshare.io/immowelt-group/)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/ImmoweltGroup/babel-preset-immowelt.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/ImmoweltGroup/babel-preset-immowelt.svg?branch=master)](https://travis-ci.org/ImmoweltGroup/babel-preset-immowelt)
+[![Dependency Status](https://david-dm.org/ImmoweltGroup/babel-preset-immowelt.svg)](https://david-dm.org/ImmoweltGroup/babel-preset-immowelt)
+[![devDependency Status](https://david-dm.org/ImmoweltGroup/babel-preset-immowelt/dev-status.svg)](https://david-dm.org/ImmoweltGroup/babel-preset-immowelt#info=devDependencies&view=table)
 
 This package is the default Babel preset which currently only consists of the `flow-strip-types` transform.
 
