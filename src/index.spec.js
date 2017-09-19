@@ -1,13 +1,19 @@
+const babel = require('babel-core');
 const config = require('./index.js');
 
 describe('babel-preset-immowelt', () => {
-  it('should export a valid object structure that contains the react-jsx and flow-strip-types transform.', () => {
+  it('should export a valid object structure.', () => {
     expect(typeof config).toBe('object');
-    expect(config.plugins).toBeDefined();
-    expect(config.plugins instanceof Array).toBe(true);
-    expect(config.plugins).toEqual([
-      'transform-react-jsx',
-      'transform-flow-strip-types'
-    ]);
+  });
+
+  it('should not throw errors when transforming a code fixture with the config.', () => {
+    const code = `
+// @flow
+type SomeNumber = number;
+const foo: SomeNumber = 2;
+
+export default foo;
+`;
+    expect(() => babel.transform(code, config)).not.toThrow();
   });
 });
