@@ -1,4 +1,8 @@
 module.exports = {
   presets: ['react'],
-  plugins: ['transform-object-rest-spread', 'transform-flow-strip-types']
+  plugins: [
+    'transform-object-rest-spread',
+    'transform-flow-strip-types',
+    'transform-class-properties'
+  ]
 };
