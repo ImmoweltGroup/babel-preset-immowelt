@@ -1,5 +1,5 @@
 {
-  "name": "@immowelt/babel-preset-immowelt",
+  "name": "@immowelt/babel-preset-immowelt-node",
   "version": "0.0.0-development",
   "private": false,
   "author": "Immonet dev team <aegaeon@immonet.de> (https://immonet.de)",
@@ -62,6 +62,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ImmoweltGroup/babel-preset-immowelt.git"
+    "url": "https://github.com/ImmoweltGroup/babel-preset-immowelt-node.git"
   }
 }
