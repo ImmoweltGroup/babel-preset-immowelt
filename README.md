@@ -5,6 +5,7 @@
 [![Build Status](https://travis-ci.org/ImmoweltGroup/babel-preset-immowelt-node.svg?branch=master)](https://travis-ci.org/ImmoweltGroup/babel-preset-immowelt-node)
 [![Dependency Status](https://david-dm.org/ImmoweltGroup/babel-preset-immowelt-node.svg)](https://david-dm.org/ImmoweltGroup/babel-preset-immowelt-node)
 [![devDependency Status](https://david-dm.org/ImmoweltGroup/babel-preset-immowelt-node/dev-status.svg)](https://david-dm.org/ImmoweltGroup/babel-preset-immowelt-node#info=devDependencies&view=table)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 This package is the default Babel preset which we use in combination of Node v8.
 
@@ -25,8 +26,7 @@ Then create a file named `.babelrc` with following contents in the root folder o
 ```
 
 ## Contributing
-Please make sure that you adhere to our code style, you can validate your changes / PR by executing `npm run lint`.
-Visit the [eslint-config-immowelt-react](https://github.com/ImmoweltGroup/eslint-config-immowelt-react) package for more information.
+See the `CONTRIBUTING.md` file at the root of the repository.
 
-## License
+## Licensing
 See the `LICENSE` file at the root of the repository.
