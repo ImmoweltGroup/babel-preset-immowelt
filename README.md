@@ -10,9 +10,11 @@
 This package is the default Babel preset which we use in combination of Node v8.
 
 ## Usage
+
 If you want to use the `@immowelt/babel-preset-immowelt-node` preset, you can install it by executing:
-```js
-npm i -S @immowelt/babel-preset-immowelt-node
+
+```sh
+yarn add @immowelt/babel-preset-immowelt-node --dev
 ```
 
 Then create a file named `.babelrc` with following contents in the root folder of your project:
@@ -26,7 +28,9 @@ Then create a file named `.babelrc` with following contents in the root folder o
 ```
 
 ## Contributing
+
 See the `CONTRIBUTING.md` file at the root of the repository.
 
 ## Licensing
+
 See the `LICENSE` file at the root of the repository.
