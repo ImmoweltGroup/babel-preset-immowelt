@@ -24,7 +24,7 @@
     "node"
   ],
   "dependencies": {
-    "babel-plugin-dynamic-import-webpack": "1.0.2",
+    "babel-plugin-dynamic-import-webpack": "1.1.0",
     "babel-plugin-transform-class-properties": "6.24.1",
     "babel-plugin-transform-object-rest-spread": "6.26.0",
     "babel-preset-flow": "6.23.0",
